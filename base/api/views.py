@@ -42,7 +42,7 @@ class RegisterView(APIView):
             },status=status.HTTP_201_CREATED)
             
         except Exception as e:
-            print("🐉🐉🐉🐉🐉🐯🐯🐯🐯🐯🐯")
+            
             print(e)
             return Response({
                     'data' : {} ,
